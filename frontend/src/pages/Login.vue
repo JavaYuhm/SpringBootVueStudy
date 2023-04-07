@@ -40,7 +40,7 @@ export default {
         router.push({path: "/"});
         window.alert("로그인하였습니다.");
       }).catch(() => {
-        window.alert("로그인 정보가 없습니다.");
+        window.alert("로그인 정보가 존재하지 않습니다..");
       });
     }
     return {state, submit}
